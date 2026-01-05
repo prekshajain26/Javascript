@@ -19,3 +19,28 @@
 /* Primitive datatypes : number,string,symbol,undefined,null,boolean,BigInt
 
 Reference type(non primitive): array([]),object({}),function  */
+
+
+
+// *****************  Stack and Heap  ****************
+
+//Stack(primitive datatype)
+
+// let myname="prekshajain"
+// let mynewname=myname
+//  mynewname="pihu"
+//  console.log(myname);
+//  console.log(mynewname);
+
+// Heap(non-primitive dataype)
+
+let userone={
+    name:"preksha",
+    age:22
+}
+
+let usertwo=userone
+usertwo.name="kartik"
+console.log(userone.name);
+console.log(usertwo.name);
+
