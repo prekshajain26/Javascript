@@ -11,7 +11,19 @@ let booleanLoggedIn=Boolean(isLoggedIn)
 console.log(booleanLoggedIn)    //true
 console.log(logged2)            //true */
 
-let num=44
-let numtostring=String(num)
-console.log(numtostring)
-console.log(typeof numtostring)
+// let num=44
+// let numtostring=String(num)
+// console.log(numtostring)
+// console.log(typeof numtostring)
+
+//   ************* operations  ****************
+
+// let str1="hello"
+// let str2="preksha"
+// let str3=str1 + str2
+// console.log(str3);
+// console.log("1"+2+4);   //124
+// console.log(1+2+"4");   //34 
+
+// console.log(+true);  //1
+
