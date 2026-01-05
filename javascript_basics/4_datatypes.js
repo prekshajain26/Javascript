@@ -27,20 +27,20 @@ Reference type(non primitive): array([]),object({}),function  */
 //Stack(primitive datatype)
 
 // let myname="prekshajain"
-// let mynewname=myname
+// let mynewname=myname                   in stack (primitive dataypes) it gives copy of the original data thats why original one doesnt change here
 //  mynewname="pihu"
 //  console.log(myname);
 //  console.log(mynewname);
 
 // Heap(non-primitive dataype)
 
-let userone={
-    name:"preksha",
-    age:22
-}
+// let userone={
+//     name:"preksha",
+//     age:22
+// }                                   but in heap it gives reference of the original data thats why when we change data it gets changed in the original data
 
-let usertwo=userone
-usertwo.name="kartik"
-console.log(userone.name);
-console.log(usertwo.name);
+// let usertwo=userone
+// usertwo.name="kartik"
+// console.log(userone.name);
+// console.log(usertwo.name);
 
