@@ -19,5 +19,3 @@ const newstr=gameName.slice(-1,6)                //slice takes negative index wh
 console.log(newstr);
 
 
-
-
