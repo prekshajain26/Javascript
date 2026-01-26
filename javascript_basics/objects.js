@@ -32,4 +32,32 @@
 // console.log(jsUser.greetings2());
 
 
-//*************   singleton objects *****************
+//  ***********  singleton objeects   ********************
+
+// const obj1=new Object()
+// console.log(obj1)
+
+//*************  non singleton  ****************
+
+// const obj2={}     
+// obj2.id="123"
+// obj2.name="preksha"
+// obj2.email="prekshapihu2003@gmail.com"
+// console.log(obj2.name)
+
+
+//creating objects inside objects 
+const regularObj={
+    id:123,
+    username:{
+        fullname:{
+            firstname:"preksha",
+            lastname:"jain",
+
+
+        }
+   
+    }
+}
+
+console.log(regularObj.username.fullname.firstname);
