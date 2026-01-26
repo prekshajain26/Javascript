@@ -47,17 +47,30 @@
 
 
 //creating objects inside objects 
-const regularObj={
-    id:123,
-    username:{
-        fullname:{
-            firstname:"preksha",
-            lastname:"jain",
+
+// const regularObj={
+//     id:123,
+//     username:{
+//         fullname:{
+//             firstname:"preksha",
+//             lastname:"jain",
 
 
-        }
+//         }
    
-    }
-}
+//     }
+// }
 
-console.log(regularObj.username.fullname.firstname);
+// console.log(regularObj.username.fullname.firstname);
+
+
+//*******************   combining objects ***********************
+
+const obj3={1:"p",2:"k"}
+const obj4={3:"k",4:"p"}
+//const combineobj=Object.assign({},obj3,obj4)        // not necessary to give curly braces inside brackets but it is a good practice
+//console.log(combineobj)
+
+//another method to combine bjects is to spread them just like in arrays
+ const combineobj={...obj3,...obj4}
+ console.log(combineobj)
