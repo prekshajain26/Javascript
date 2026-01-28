@@ -66,11 +66,39 @@
 
 //*******************   combining objects ***********************
 
-const obj3={1:"p",2:"k"}
-const obj4={3:"k",4:"p"}
+// const obj3={1:"p",2:"k"}
+// const obj4={3:"k",4:"p"}
 //const combineobj=Object.assign({},obj3,obj4)        // not necessary to give curly braces inside brackets but it is a good practice
 //console.log(combineobj)
 
 //another method to combine bjects is to spread them just like in arrays
- const combineobj={...obj3,...obj4}
- console.log(combineobj)
+//  const combineobj={...obj3,...obj4}
+//  console.log(combineobj)
+
+ //***********************  array of objects **************************
+
+//  const users=[
+//     {
+//         id:1,
+//         name:"preksha"
+//     },
+//     {
+//         id:2,
+//         name:"palak"
+//     }
+
+//  ]
+//  console.log(users[0].name)
+
+// ****************** some methods *****************************
+
+// const tinderUser={
+//     id:1234,
+//     email:"preksha@1234",
+//     name:"preksha"
+// }
+
+//console.log(Object.keys(tinderUser)) // using keys method on object to get all the keys
+//console.log(Object.values(tinderUser))  //similarly to get values
+
+
