@@ -101,4 +101,26 @@
 //console.log(Object.keys(tinderUser)) // using keys method on object to get all the keys
 //console.log(Object.values(tinderUser))  //similarly to get values
 
+//************* destructuring of objects *************
 
+// const course={
+//     coursename:"javascript",
+//     courseprice:1400,
+//     courseinstructor:"preksha"
+// }
+// const {courseinstructor}=course
+// console.log(courseinstructor)  // with this we need not to print course.courseinstructor again and again
+//const{courseinstructor:inst}=course // we can also give shortname to this 
+
+// api format in json format
+
+// {
+//     "name":"preksha",
+//     "id":123,                          // in objects form
+//     "city":"jaipur"
+// }
+
+// [
+//  {},
+//  {}           // in array form that contains objects
+// ]
