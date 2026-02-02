@@ -71,8 +71,22 @@
 //*************************************************************************************
 //passing array as parameter
 
-const myArray=[1,2,3,4]
-function myNewArray(arrvalue){
-    return arrvalue[3]
+// const myArray=[1,2,3,4]
+// function myNewArray(arrvalue){
+//     return arrvalue[3]
+// }
+// console.log(myNewArray(myArray));
+
+
+//*******************************  SCOPE LEVEL AND MINI HOISTING ***************************************************
+
+function one(){
+    const username="preksha"
+
+    function two(){
+        const website="youtube"
+        console.log(username);   //two can access variables of one but one cannot access variables of two
+    }
+    two()
 }
-console.log(myNewArray(myArray));
+one()
