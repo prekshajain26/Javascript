@@ -80,13 +80,26 @@
 
 //*******************************  SCOPE LEVEL AND MINI HOISTING ***************************************************
 
-function one(){
-    const username="preksha"
+// function one(){
+//     const username="preksha"
 
-    function two(){
-        const website="youtube"
-        console.log(username);   //two can access variables of one but one cannot access variables of two
-    }
-    two()
-}
-one()
+//     function two(){
+//         const website="youtube"
+//         console.log(username);   //two can access variables of one but one cannot access variables of two
+//     }
+//     two()
+// }
+// one()
+
+// ********************************************************************************************
+
+// addOne(3)                     //here we can call addone function above function definition
+// function addOne(num){
+//     return num+1
+
+// }
+
+//addTwo(4)     //but if we do it in this it will give error as we have stored this function in a variable
+// const addTwo=function(num){
+//     return num+2
+// }
