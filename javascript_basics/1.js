@@ -24,3 +24,29 @@
 //     console.log(space.repeat(n-i)+str.repeat(i))
 // }
 
+
+// conditinal statements
+// SWITCH CASE
+
+const month=9
+
+switch(month){
+    case 1:
+        console.log("jan");
+        break;
+    case 2:
+        console.log("feb");
+        break;
+    case 3:
+        console.log("march");
+        break;
+    case 4:
+        console.log("apr");
+        break;
+    
+    default:
+        console.log("invalid month");
+        break;
+        
+        
+}
