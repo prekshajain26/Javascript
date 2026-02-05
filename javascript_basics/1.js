@@ -28,25 +28,46 @@
 // conditinal statements
 // SWITCH CASE
 
-const month=9
+// const month=9
 
-switch(month){
-    case 1:
-        console.log("jan");
-        break;
-    case 2:
-        console.log("feb");
-        break;
-    case 3:
-        console.log("march");
-        break;
-    case 4:
-        console.log("apr");
-        break;
+// switch(month){
+//     case 1:
+//         console.log("jan");
+//         break;
+//     case 2:
+//         console.log("feb");
+//         break;
+//     case 3:
+//         console.log("march");
+//         break;
+//     case 4:
+//         console.log("apr");
+//         break;
     
-    default:
-        console.log("invalid month");
-        break;
+//     default:
+//         console.log("invalid month");
+//         break;
         
         
+// }
+
+//  TERNARY OPERATOR           
+// condition?true:false
+
+
+// const tea=100
+// tea>90?console.log("less price"):console.log("equal price")
+
+// to check if the array is empty
+// const myArr=[]
+// if (myArr.length===0){
+//     console.log("array is empty")
+// }
+
+//to check is an object is empty
+
+const myObj={}
+if(Object.keys(myObj).length===0){
+    console.log("object is empty");
+    
 }
