@@ -66,8 +66,20 @@
 
 //to check is an object is empty
 
-const myObj={}
-if(Object.keys(myObj).length===0){
-    console.log("object is empty");
+// const myObj={}
+// if(Object.keys(myObj).length===0){
+//     console.log("object is empty");
     
-}
+// }
+
+// for (let index=0;index<=4;index++){
+//     console.log(index)
+// }
+
+// let score=1
+// do{
+//     console.log(`Score is ${score}`);  //in do while loop first work is done then condition is checked
+//     score++                            //so the loop will always run one time atleast 
+    
+// }
+// while(score<=10);
