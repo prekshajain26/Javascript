@@ -1,4 +1,4 @@
-// ****************    TYPE COERCION   ***********************
+// ********************************    TYPE COERCION   ****************************************
 // console.log("1"+1)
  /* it will give 11 because when we giving one string value and adding it with a
 number so our addition sign will convert into concatenation sign and will give 11 because + sign
@@ -19,9 +19,9 @@ so if we are giving one string value it will convert that string into number and
 // console.log(age)
 // so to convert into number let age=Number(prompt("enter your age")); 
 
-// ********************** SWAPPING USING 3 METHODS *********************
+// ******************************** SWAPPING USING 3 METHODS **********************************
 
-// 1st Method - using third variable
+// ***************** 1st Method - using third variable
 /* let a=10;
 let b=20;
 let temp;
@@ -31,5 +31,16 @@ a=b;
 b=temp;
 console.log(`After swapping value of a is ${a} and b is ${b}`) */
 
-// 2nd Method -- without taking extra variable
-/* 
+//***************** */ 2nd Method -- without taking extra variable
+// let a=10;
+// let b=20;
+/*a=a+b
+b=a-b
+a=a-b
+console.log(`value of a and b after swapping are ${a} and ${b}`); */
+
+//******************* */ 3rd METHOD
+// let a=10;
+// let b=20;
+// [a,b]=[b,a];
+// console.log(a,b);
