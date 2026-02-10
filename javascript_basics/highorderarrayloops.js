@@ -34,12 +34,50 @@
 
 // *******************************************************************************************
 // as forof loop is not working with objects so we have forin loop for that
-const myobj={
-    js:"javascript",
-    cpp:"c plus plus",
-    py:"python"
+// const myobj={
+//     js:"javascript",
+//     cpp:"c plus plus",
+//     py:"python"
+// }
+// for in loop is basically used with objects
+// for (const key in myobj) {
+//     console.log(`${key} shortcut is for ${myobj[key]}`);       
+// }
+
+// ************************* using for in loop in array **************************
+
+// const prog=["js","py","cpp","c"]
+// for(const key in prog){
+//     console.log(prog[key])
+// }
+
+// we cannot use forin loop with maps as it is not iteratable
+
+// *******************************************************************************************
+//                             for each loop
+ //const coding=["cpp","java","python","ruby"]
+// coding.forEach(function (val){
+//     console.log(val);
+    
+// })
+// same with arrow function 
+//   coding.forEach((item) => {
+//     console.log(item); 
+//   })
+
+// ***********************  foreach in array of objects  *******************************
+
+const myCoding=[
+{
+    langName:"javascript",
+    langFile:"js"
+},
+{
+    langName:"python",
+    langFile:"py"
 }
-for (const key in myobj) {
-    console.log(`${key} shortcut is for ${myobj[key]}`);       
-}
+]
+myCoding.forEach((item)=>{
+    console.log(item.langFile)
+})
 
