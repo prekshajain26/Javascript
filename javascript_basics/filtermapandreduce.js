@@ -43,3 +43,9 @@ const users=[
 // console.log(userCourse)
 userCourse=users.filter((uc)=>{return uc.name==="preksha"})  // as we have used scope so return keyword is necessary
 console.log(userCourse);
+
+// ***************************************************************************************************
+ //                                  MAP                    
+const myNumbers=[1,2,3,4,5,6,7,8,9,10]
+const newNums = myNumbers.map((num)=>num+10)
+console.log(newNums);
