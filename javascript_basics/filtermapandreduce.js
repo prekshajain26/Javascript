@@ -21,7 +21,8 @@ const newNums=myNums.filter((nums)=>{
 })
 console.log(newNums) */
 
-// if we do this using for each loop instaed of filter 
+// if we do this using for each loop instaed of filter but filter is more appropriate
+/*
 const myNums=[1,2,3,4,5,6,7,8,9,10]
 const newNums=[]
 myNums.forEach((num)=>{
@@ -29,5 +30,16 @@ myNums.forEach((num)=>{
         newNums.push(num)
     }
 })
-console.log(newNums)
+console.log(newNums) */
+
+const users=[
+    {name:"preksha",course:"MCA"},
+    {name:"kartik",course:"MCA"},
+    {name:"rahul",course:"MBA"},
+    {name:"dheeraj",course:"MBA"}
     
+];
+// let userCourse=users.filter((uc)=>uc.course==="MCA")
+// console.log(userCourse)
+userCourse=users.filter((uc)=>{return uc.name==="preksha"})  // as we have used scope so return keyword is necessary
+console.log(userCourse);
