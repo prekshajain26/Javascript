@@ -67,9 +67,30 @@ const myTotal=myNums.reduce(function(acc,currval){
 },1) 
 console.log(myTotal)
 
-
 1 is the value of accumulator in first round then it will be added to the 1st value that is 1
 so 1+1=2 now this two will be added to next value that is 2 so 2+2=4
 4+3=7
 7+4=11
 */
+
+// *********************** using reduce with arrow function
+/*
+const myNums=[1,2,3,4]
+const myTotal=myNums.reduce((acc,val)=>acc+val,0)
+console.log(myTotal) */
+
+// using reduce with array of objects
+const shoppingCart=[
+    {
+        itemName:"teddy",
+        price:2000
+    },
+    {
+      itemName:"watch",
+      price:3000
+    }
+]
+const myCart=shoppingCart.reduce((acc,item)=>acc+item.price,0)
+console.log(myCart)
+
+
